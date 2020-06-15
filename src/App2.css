@@ -1,0 +1,10 @@
+.custom-logoimg{
+    background-image: url('logo.jpg');
+}
+
+.social-link{
+    margin-right: 10px;
+    color: #0b2e13;
+    background: #20c997 !important;
+    border-color: #20c997 !important;
+}
