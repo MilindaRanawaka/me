@@ -30,3 +30,5 @@ export default class Education extends Component {
         );
     }
 }
+
+//End of file
