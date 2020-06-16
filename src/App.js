@@ -31,7 +31,7 @@ export default class App extends React.Component{
             <div className="p-4 pt-5">
               <a href="/" className="img logo rounded-circle mb-5 custom-logoimg"></a>
               <ul className="list-unstyled components mb-5">
-                <li className="active">
+                <li className="">
                   <a href="/">About</a>
                 </li>
                 <li>
@@ -43,9 +43,11 @@ export default class App extends React.Component{
                 <li>
                   <a href="/projects">Projects</a>
                 </li>
+                {/*}
                 <li>
                   <a href="/contacts">Contact</a>
                 </li>
+                {*/}
               </ul>
 
               <div className="footer">
@@ -73,7 +75,7 @@ export default class App extends React.Component{
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul className="nav navbar-nav ml-auto">
-                    <li className="nav-item active">
+                    <li className="nav-item">
                       <a className="nav-link" href="/">About</a>
                     </li>
                     <li className="nav-item">
@@ -85,9 +87,11 @@ export default class App extends React.Component{
                     <li className="nav-item">
                       <a className="nav-link" href="/projects">Projects</a>
                     </li>
+                    {/*}
                     <li className="nav-item">
                       <a className="nav-link" href="/contacts">Contact</a>
                     </li>
+                    {*/}
                   </ul>
                 </div>
               </div>

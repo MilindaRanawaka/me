@@ -1,20 +1,22 @@
 import React from 'react';
-import { Switch, Route, BrowserRouter } from 'react-router-dom';
+import { Switch, BrowserRouter } from 'react-router-dom';
 
-import About from './About'
-import Education from "./Education";
-import Skills from "./Skills";
-import Project from "./Project";
-import Contact from "./Contact";
+import About from './About/About'
+import Education from "./Education/Education";
+import Skills from "./Skills/Skills";
+import Project from "./Project/Project";
+import Contact from "./Contact/Contact";
+import RouteManager from "./RouteManage";
 
 const Main = () => (
     <BrowserRouter>
             <Switch>
-                <Route exact path="/" component={About} />
-                <Route exact path="/education" component={Education} />
-                <Route exact path="/skills" component={Skills} />
-                <Route exact path="/projects" component={Project} />
-                <Route exact path="/contacts" component={Contact} />
+
+                <RouteManager exact path="/" component={About} />
+                <RouteManager exact path="/education" component={Education} />
+                <RouteManager exact path="/skills" component={Skills} />
+                <RouteManager exact path="/projects" component={Project} />
+                <RouteManager exact path="/contacts" component={Contact} />
             </Switch>
     </BrowserRouter>
 )
