@@ -1,3 +1,7 @@
+.custom-logoimg{
+    background-image: url('logo.jpg');
+}
+
 .social-link{
     margin-right: 10px;
     color: #0b2e13;
