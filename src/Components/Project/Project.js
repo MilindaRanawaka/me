@@ -17,7 +17,7 @@ export default class Project extends Component {
                     title={"Fire Alarm Monitoring System"}
                     desc={"Fire Alarm Monitoring System contains RESTful web service, Fire Sensor app, Web Application, RMI Server and RMI Desktop Client, Mail and SMS Services."}
                     tech={"ReactJS | Node JS | HTML5 | CSS3 | Bootstrap | MySQL | Java | Maven | Jersey"}
-                    gitLink={"https://github.com/MilindaRanawaka/FireAlarmRestAPI"}
+                    gitLink={"https://bit.ly/3d0ci4W"}
                 />
                 <ProjectDiv
                     title={"COVID-19 Tracker"}
@@ -30,7 +30,7 @@ export default class Project extends Component {
                     title={"School Management System"}
                     desc={"Fully Functioning Windows Form Application for Managing School Activities."}
                     tech={"C# | .Net Framework | Microsoft SQL Server | Visual Studio "}
-                    gitLink={"https://github.com/MilindaRanawaka/SchoolManagementSystem"}
+                    gitLink={"https://bit.ly/2MUmBx0"}
                 />
                 <ProjectDiv
                     title={"Hostel Management System (STAY)"}
