@@ -1,24 +1,22 @@
-import React from 'react';
-import { Switch, BrowserRouter } from 'react-router-dom';
+import React from "react";
+import { Switch, Route, HashRouter } from "react-router-dom";
 
-import About from './About/About'
+import About from "./About/About";
 import Education from "./Education/Education";
 import Skills from "./Skills/Skills";
 import Project from "./Project/Project";
 import Contact from "./Contact/Contact";
-import RouteManager from "./RouteManage";
 
 const Main = () => (
-    <BrowserRouter>
-            <Switch>
-
-                <RouteManager exact path="/" component={About} />
-                <RouteManager exact path="/education" component={Education} />
-                <RouteManager exact path="/skills" component={Skills} />
-                <RouteManager exact path="/projects" component={Project} />
-                <RouteManager exact path="/contacts" component={Contact} />
-            </Switch>
-    </BrowserRouter>
-)
+  <HashRouter basename="/">
+    <Switch>
+      <Route exact path="/" component={About} />
+      <Route path="/education" component={Education} />
+      <Route path="/skills" component={Skills} />
+      <Route path="/projects" component={Project} />
+      <Route path="/contacts" component={Contact} />
+    </Switch>
+  </HashRouter>
+);
 
 export default Main;
