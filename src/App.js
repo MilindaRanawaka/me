@@ -9,15 +9,22 @@ export default class App extends React.Component {
     this.state = {
       showMenu: true,
       status: "",
+      toggleBtn: "fa fa-bars",
     };
     this.toggleMenu = this.toggleMenu.bind(this);
   }
 
   toggleMenu = function () {
     if (this.state.showMenu) {
-      this.setState({ status: "active" });
+      this.setState({
+        status: "active",
+        toggleBtn: "fas fa-times",
+      });
     } else {
-      this.setState({ status: "" });
+      this.setState({
+        status: "",
+        toggleBtn: "fa fa-bars",
+      });
     }
     this.setState({ showMenu: !this.state.showMenu });
   };
@@ -28,9 +35,11 @@ export default class App extends React.Component {
         <nav id="sidebar" className={this.state.status}>
           <div className="p-4 pt-5">
             <a
-              href="/"
+              href="/me/#/"
               className="img logo rounded-circle mb-5 custom-logoimg"
-            ></a>
+            >
+              <i className={`fa`} aria-hidden="true" />
+            </a>
             <ul className="list-unstyled components mb-5">
               <li className="">
                 <a href="/me/#/">About</a>
@@ -64,9 +73,9 @@ export default class App extends React.Component {
                 type="button"
                 id="sidebarCollapse"
                 onClick={this.toggleMenu}
-                className="btn btn-primary"
+                className="btn btn-primary side-toggle-btn"
               >
-                <i className="fa fa-bars" />
+                <i className={this.state.toggleBtn} />
                 <span className="sr-only">Toggle Menu</span>
               </button>
               <button

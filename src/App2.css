@@ -1,42 +1,52 @@
-.custom-logoimg{
-    background-image: url('logo.jpg');
+.custom-logoimg {
+  background-image: url("logo.jpg");
 }
 
-.social-link{
-    margin-right: 10px;
-    color: #0b2e13;
-    background: #20c997 !important;
-    border-color: #20c997 !important;
+.social-link {
+  margin-right: 10px;
+  color: #0b2e13;
+  background: #20c997 !important;
+  border-color: #20c997 !important;
 }
 
-.edu-info{
-    font-size: 22px;
-    color: #45a29e;
+.edu-info {
+  font-size: 22px;
+  color: #45a29e;
 }
 
-.edu-box{
-    margin: auto;
-    max-width: 1000px;
+.edu-box {
+  margin: auto;
+  max-width: 1000px;
 }
 
-.skill-ico-div{
-    width: 150px;
-    text-align: center;
-    margin-left: 50px;
+.skill-ico-div {
+  width: 150px;
+  text-align: center;
+  margin-left: 50px;
 }
 
-.skill-ico-div i{
-    font-size: 45px;
+.skill-ico-div i {
+  font-size: 45px;
 }
 
-.skill-ico-div p{
-    margin-bottom: 0;
+.skill-ico-div p {
+  margin-bottom: 0;
 }
 
-.shadow:hover{
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+.shadow:hover {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
 }
 
-.shadow-sm:hover{
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+.shadow-sm:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.side-toggle-btn {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .side-toggle-btn {
+    display: inline;
+  }
 }
