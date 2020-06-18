@@ -11,7 +11,6 @@ export default class Skills extends Component {
         <SkillCard icon={"devicon-cplusplus-plain"} name={"C++"} />
         <SkillCard icon={"fab fa-react"} name={"React"} />
         <SkillCard icon={"fab fa-android"} name={"Android"} />
-        <SkillCard icon={"fab fa-angular"} name={"Angular"} />
         <SkillCard icon={"fab fa-node-js"} name={"Node"} />
         <SkillCard icon={"fab fa-js-square"} name={"JavaScript"} />
         <SkillCard icon={"fab fa-python"} name={"Python"} />
