@@ -63,6 +63,13 @@ export default class Project extends Component {
           }
           tech={"JSP servlet | My SQL | HTML | CSS "}
         />
+        <ProjectDiv
+          title={"Video Sharing Tool"}
+          desc={
+            "A website called Video for you(V4U) for video sharing where users can watch, like, share, comment and upload their own videos"
+          }
+          tech={"HTML | PHP | CSS | JavaScript | phpMyAdmin"}
+        />
       </div>
     );
   }
