@@ -16,7 +16,7 @@ export default class Education extends Component {
             <div className="mb-2 h5">
               Sri Lanka Institute of Information Technology - SLIIT
             </div>
-            <h6>GPA: 3.68</h6>
+            <h6>Cumulative GPA: 3.59</h6>
             <div className="resume-date text-md-left">
               <span className="text-primary">2017 - Present</span>
             </div>
@@ -28,9 +28,9 @@ export default class Education extends Component {
               <strong>Rahula College - Matara</strong>
             </p>
             <div className="mb-2 h5">O/L - 2014 | A/L - 2017</div>
-            <h6 className="invisible">GPA: 3.68</h6>
+            <h6 className="invisible">Cumulative GPA: 3.59</h6>
             <div className="resume-date text-md-left">
-              <span className="text-primary">2002 - 2017</span>
+              <span className="text-primary">2004 - 2017</span>
             </div>
           </div>
         </div>
