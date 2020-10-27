@@ -12,7 +12,7 @@ export default class Project extends Component {
             "Desktop application for generating and managing Time-table"
           }
           tech={"C# | .Net Framework | Azure SQL | Metro Framework | VisualStudio "}
-          gitLink={"https://github.com/MilindaRanawaka/TimetableManagementSystem"}
+          gitLink={"http://bit.ly/TimeTableGit"}
         />
         <ProjectDiv
           title={"Online Shopping Cart System for a Fashion Store"}
@@ -43,10 +43,10 @@ export default class Project extends Component {
           tech={
             "ReactJS | Node JS | HTML5 | CSS3 | Bootstrap | MySQL | Java | Maven | Jersey"
           }
-          gitLink={"https://bit.ly/3d0ci4W"}
+          gitLink={"https://bit.ly/Fire-Alarm"}
         />
         <ProjectDiv
-          title={"Fire Alarm Monitoring System"}
+          title={"Ticketing System for a Public Transport Network"}
           desc={
             "System that allow passengers to pay in advance and access public transport using digital technologies."
           }
@@ -74,7 +74,7 @@ export default class Project extends Component {
             "Fully Functioning Windows Form Application for Managing School Activities."
           }
           tech={"C# | .Net Framework | Microsoft SQL Server | Visual Studio "}
-          gitLink={"https://bit.ly/2MUmBx0"}
+          gitLink={"https://bit.ly/Sch-Mng-S"}
         />
         <ProjectDiv
           title={"Hostel Management System (STAY)"}
