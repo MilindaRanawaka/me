@@ -7,6 +7,14 @@ export default class Project extends Component {
       <div>
         <h2>Project</h2>
         <ProjectDiv
+          title={"Timetable Management System"}
+          desc={
+            "Desktop application for generating and managing Time-table"
+          }
+          tech={"C# | .Net Framework | Azure SQL | Metro Framework | VisualStudio "}
+          gitLink={"https://github.com/MilindaRanawaka/TimetableManagementSystem"}
+        />
+        <ProjectDiv
           title={"Online Shopping Cart System for a Fashion Store"}
           desc={
             "Full-stack application for the Online Fashion Store system developed, making the use of REST API technologies"
@@ -18,6 +26,16 @@ export default class Project extends Component {
           liveLink={"https://afternoon-beyond-91179.herokuapp.com/"}
         />
         <ProjectDiv
+          title={"Redesign Hemas Healthcare App"}
+          desc={
+            "Complete UI Redesign of Hemas Health Care Application."
+          }
+          tech={
+            "Flutter"
+          }
+          gitLink={"https://github.com/MilindaRanawaka/HemasHealthApp"}
+        />
+        <ProjectDiv
           title={"Fire Alarm Monitoring System"}
           desc={
             "Fire Alarm Monitoring System contains RESTful web service, Fire Sensor app, Web Application, RMI Server and RMI Desktop Client, Mail and SMS Services."
@@ -26,6 +44,16 @@ export default class Project extends Component {
             "ReactJS | Node JS | HTML5 | CSS3 | Bootstrap | MySQL | Java | Maven | Jersey"
           }
           gitLink={"https://bit.ly/3d0ci4W"}
+        />
+        <ProjectDiv
+          title={"Fire Alarm Monitoring System"}
+          desc={
+            "System that allow passengers to pay in advance and access public transport using digital technologies."
+          }
+          tech={
+            "ReactJS | Node JS | HTML5 | CSS3 | Bootstrap | Express JS | MongoDB "
+          }
+          gitLink={"https://github.com/MilindaRanawaka/TicketingSystem"}
         />
         <ProjectDiv
           title={"COVID-19 Tracker"}
